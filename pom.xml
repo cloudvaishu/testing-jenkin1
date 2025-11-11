@@ -63,8 +63,9 @@
       <plugin>
         <groupId>com.igormaznitsa</groupId>
         <artifactId>mvn-golang-wrapper</artifactId>
-        <version>${go.wrapper.plugin.version}</version>
-        <extensions>true</extensions>
+        <version>2.2.0</version>
+        <extensions>
+        <execution>
         <configuration>
           <!--<goPath>${basedir}</goPath>-->
           <!--<enforceGoPathToEnd>true</enforceGoPathToEnd>-->
